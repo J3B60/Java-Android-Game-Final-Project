@@ -1,0 +1,106 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <uk.ac.reading.cs2ja16.GameView
+        android:id="@+id/gamearea"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <RelativeLayout
+        android:id="@+id/gameLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000000">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="433dp"
+            android:layout_height="157dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/title" />
+
+        <Button
+            android:id="@+id/Startbutton"
+            android:layout_width="150dp"
+            android:layout_height="43dp"
+            android:layout_above="@+id/Exitbutton"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/buttonborder"
+            android:fontFamily="@font/pcmanfont"
+            android:text="@string/btn_StartGame"
+            android:textColor="#ffffffff" />
+
+        <Button
+            android:id="@+id/Exitbutton"
+            android:layout_width="149dp"
+            android:layout_height="42dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/buttonborder"
+            android:text="@string/btn_Exit"
+            android:textColor="#ffffffff"
+            android:fontFamily="@font/pcmanfont"/>
+
+        <ImageButton
+            android:id="@+id/highscoreButton"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="45dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/person_icon" />
+
+        <ImageButton
+            android:id="@+id/settingsButton"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="45dp"
+            android:layout_toEndOf="@+id/highscoreButton"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/settings_icon" />
+
+        <ImageButton
+            android:id="@+id/infoButton"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="45dp"
+            android:layout_toEndOf="@+id/settingsButton"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/info_icon" />
+
+        <ImageButton
+            android:id="@+id/helpButton"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="45dp"
+            android:layout_toEndOf="@+id/infoButton"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/help_icon" />
+
+    </RelativeLayout>
+</FrameLayout>

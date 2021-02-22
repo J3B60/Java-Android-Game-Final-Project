@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PAC-MAN NOT BY NAMCO</string>
+    <string name="highscore_game_text">HIGH SCORE</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_StartGame">START</string>
+    <string name="btn_Exit">EXIT</string>
+    <string name="mode_pause">Pause</string>
+    <string name="mode_ready">Ready</string>
+    <string name="mode_lose">Lose</string>
+    <string name="mode_GameOver">GAME OVER</string>
+    <string name="mode_win">Win</string>
+    <string name="score_text">0</string>
+    <string name="menu_start">Start</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_resume">Resume</string>
+    <string name="message_stopped">Stopped</string>
+    <string name="back_button">←</string>
+    <string name="howtoplay_title">HOW TO PLAY</string>
+    <string name="howtoplay_text">#TODO To control PAC-MAN swipe up, down, left and right or use the on screen arrows. Collect pellets, power pellets allow you to catch ghosts. Avoid ghosts Blinky, Pinky, Inky and Clyde. Collect all pellets in the stage to win. This is a demo so even if you lose, you will progress to the next stage to expereince all stages and all the different special power ups in the game.</string>
+    <string name="highscore_title">HIGH SCORES</string>
+    <string name="highscore_default_name">AAA</string>
+    <string name="highscore_default_score">000</string>
+    <string name="highscore_middle">.........</string>
+    <string name="about_title">ABOUT</string>
+    <string name="about_text">"PAC-MAN NOT BY NAMCO" MABE BY MILAN\n
+        SPRITES: CLASSIC NAMCO PAC-MAN SPRIETS FROM VG SPRITES RESOURCE\n
+        1ST STAGE: CLASSIC PAC-MAN\n
+        2ND STAGE: HIGHWAY FROM PAC-MAN CHAMPIONSHIP EDITION DX+\n
+        3RD STAGE: ORIGINAL STAGE\n
+        BONUS STAGE: NOKIA SNAKE\n
+        SFX: CLASSIC PAC-MAN FROM VG SOUND RESOURCE\n
+        MUSIC: CLASSIC PAC-MAN AND PAC-MAN CHAMPIONSHIP EDITION DX+\n</string>
+    <string name="settings_title">SETTINGS</string>
+    <string name="settings_music">MUSIC</string>
+    <string name="settings_swip">SWIPE</string>
+    <string name="settings_pad">PAD</string>
+    <string name="settings_gyro">GYRO</string>
+    <string name="level_one">OOOOOOOOOOOOOOOOOOOOOOOOOOOO\n
+        OPPPPPPPPPPPPWWPPPPPPPPPPPPO\n
+        OPWWWWPWWWWWPWWPWWWWWPWWWWPO\n
+        OQWWWWPWWWWWPWWPWWWWWPWWWWQO\n
+        OPWWWWPWWWWWPWWPWWWWWPWWWWPO\n
+        OPPPPPPPPPPPPPPPPPPPPPPPPPPO\n
+        OPWWWWPWWPWWWWWWWWPWWPWWWWPO\n
+        OPWWWWPWWPWWWWWWWWPWWPWWWWPO\n
+        OPPPPPPWWPPPPWWPPPPWWPPPPPPO\n
+        OOOOOOPWWWWWEWWEWWWWWPOOOOOO\n
+        OOOOOOPWWWWWEWWEWWWWWPOOOOOO\n
+        OOOOOOPWWEEEEGGEEEEWWPOOOOOO\n
+        OOOOOOPWWEBBBBBBBBEWWPOOOOOO\n
+        OOOOOOPWWEBBBBBBBBEWWPOOOOOO\n
+        XEEEEEPEEEBBBBBBBBEEEPEEEEEX\n
+        OOOOOOPWWEBBBBBBBBEWWPOOOOOO\n
+        OOOOOOPWWEBBBBBBBBEWWPOOOOOO\n
+        OOOOOOPWWEEEEEEEEEEWWPOOOOOO\n
+        OOOOOOPWWEWWWWWWWWEWWPOOOOOO\n
+        OOOOOOPWWEWWWWWWWWEWWPOOOOOO\n
+        OPPPPPPPPPPPPWWPPPPPPPPPPPPO\n
+        OPWWWWPWWWWWPWWPWWWWWPWWWWPO\n
+        OPWWWWPWWWWWPWWPWWWWWPWWWWPO\n
+        OQPPWWPPPPPPPSSPPPPPPPWWPPQO\n
+        OWWPWWPWWPWWWWWWWWPWWPWWPWWO\n
+        OWWPWWPWWPWWWWWWWWPWWPWWPWWO\n
+        OPPPPPPWWPPPPWWPPPPWWPPPPPPO\n
+        OPWWWWWWWWWWPWWPWWWWWWWWWWPO\n
+        OPWWWWWWWWWWPWWPWWWWWWWWWWPO\n
+        OPPPPPPPPPPPPPPPPPPPPPPPPPPO\n
+        OOOOOOOOOOOOOOOOOOOOOOOOOOOO\n</string>
+    <string name="level_two"></string>
+    <string name="level_three"></string>
+    <string name="level_special"></string>
+    <string name="stage_name1">HIGHWAY</string>
+    <string name="stage_name2">CLASSIC</string>
+    <string name="stage_name3">SPECIAL</string>
+    <string name="stage_name4">EDITOR</string>
+
+
+</resources>

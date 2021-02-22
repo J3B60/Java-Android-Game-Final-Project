@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <uk.ac.reading.cs2ja16.GameView
+        android:id="@+id/gamearea"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <RelativeLayout
+        android:id="@+id/gameLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000000">
+
+        <Button
+            android:id="@+id/Stage1button"
+            android:layout_width="150dp"
+            android:layout_height="43dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/buttonborder"
+            android:fontFamily="@font/pcmanfont"
+            android:text="@string/stage_name1"
+            android:textColor="#ffffffff" />
+
+        <Button
+            android:id="@+id/Stage2button"
+            android:layout_width="150dp"
+            android:layout_height="43dp"
+            android:layout_below="@+id/Stage1button"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonborder"
+            android:fontFamily="@font/pcmanfont"
+            android:text="@string/stage_name2"
+            android:textColor="#ffffffff" />
+
+        <Button
+            android:id="@+id/Stage3button"
+            android:layout_width="150dp"
+            android:layout_height="43dp"
+            android:layout_below="@+id/Stage2button"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonborder"
+            android:fontFamily="@font/pcmanfont"
+            android:text="@string/stage_name3"
+            android:textColor="#ffffffff" />
+
+        <Button
+            android:id="@+id/Stage4button"
+            android:layout_width="150dp"
+            android:layout_height="43dp"
+            android:layout_below="@+id/Stage3button"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonborder"
+            android:fontFamily="@font/pcmanfont"
+            android:text="@string/stage_name4"
+            android:textColor="#ffffffff" />
+        <Button
+            android:id="@+id/backbuttonLvlselect"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/buttonborder"
+            android:text="@string/back_button"
+            android:textColor="#ffffffff"
+            android:textSize="40sp" />
+    </RelativeLayout>
+</FrameLayout>
