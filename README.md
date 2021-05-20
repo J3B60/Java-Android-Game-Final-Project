@@ -1,4 +1,5 @@
 # Java-Android-Game-Final-Project
+Note: For this GitHub public release all Pac-man resources owned by Bandai Namco such as music and images have been removed or replaced.
 ## Project Description
 For this project we had freedom to make any game for Android with Java as long as it had:
 - Multiple Enemies.
